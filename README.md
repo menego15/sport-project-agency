@@ -11,11 +11,7 @@ Redesign moderno del sito originale, mantenendo pagine e struttura di navigazion
 ├── index.html                      # Home
 ├── staff.html                      # Staff / Fabrizio Campanello
 ├── service.html                    # Servizi
-├── clients/
-│   ├── mens-basketball.html
-│   ├── womens-basketball.html
-│   ├── coaches.html
-│   └── physical-trainer.html
+├── assistiti.html                  # Lista Assistiti (download & condivisione)
 ├── css/
 │   └── style.css                   # Design system
 ├── js/
@@ -34,4 +30,4 @@ npx serve .
 
 ## Contenuti placeholder
 
-I dati degli atleti (Men's/Women's Basketball, Coaches, Physical Trainer) sono attualmente segnaposto e vanno sostituiti con foto e nominativi reali.
+La sezione Assistiti (assistiti.html) prevede il download della lista assistiti in PDF ed Excel/CSV e la condivisione via WhatsApp: al momento i pulsanti di download sono segnaposto ("A breve") in attesa dei dati e della generazione dei file reali; la condivisione WhatsApp è già funzionante.
