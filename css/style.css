@@ -520,6 +520,32 @@ p { color: var(--gray-700); }
   padding-top: 28px;
   font-size: 0.78rem;
 }
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--charcoal);
+  border-radius: 50%;
+  transition: border-color var(--transition), background var(--transition);
+}
+.footer-social a:hover {
+  border-color: var(--gold);
+  background: var(--charcoal);
+}
+.footer-social svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--gray-400);
+  transition: fill var(--transition);
+}
+.footer-social a:hover svg { fill: var(--gold); }
 
 /* ---------- Page header (sub-pages) ---------- */
 .page-header {
